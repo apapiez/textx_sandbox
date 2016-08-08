@@ -1,0 +1,22 @@
+
+    digraph xtext {
+    fontname = "Bitstream Vera Sans"
+    fontsize = 8
+    node[
+        shape=record,
+        style=filled,
+        fillcolor=aliceblue
+    ]
+    nodesep = 0.3
+    edge[dir=black,arrowtail=empty]
+
+
+1029343684480 -> 1029343769544 [label="to_greet:0" arrowtail=diamond dir=both]
+1029343769544[label="{World:Who|}"]
+1029343684480 -> 1029343769600 [label="to_greet:1" arrowtail=diamond dir=both]
+1029343769600[label="{Solar System:Who|}"]
+1029343684480 -> 1029343769712 [label="to_greet:2" arrowtail=diamond dir=both]
+1029343769712[label="{Universe:Who|}"]
+1029343684480[label="{:HelloWordlModel|}"]
+
+}

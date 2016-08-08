@@ -1,0 +1,18 @@
+COSHH:
+	'LONGCOSHH'
+		sections*=SECTION
+	'END'
+	;
+
+SECTION:
+	'SECTION' name=STRING ':'
+		fields+=FIELD
+	'END'
+	;
+
+FIELD:
+	name=ID ':' type=ID|INT|FLOAT|STRING ';'
+	;
+	
+
+	

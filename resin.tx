@@ -1,0 +1,26 @@
+ResinModel:
+	simple_types *= SimpleType
+	resins += Resin
+	;
+
+Resin:
+	/[DEFINE RESIN :]/
+	properties += Property
+	/[END DEFINE]/
+	;
+	
+Property:
+	name=ID ':' type=ID
+	;
+	
+Type:
+	SimpleType | Entity
+	;
+	
+SimpleType:
+	'type' name=ID
+	;
+	
+	
+	
+	

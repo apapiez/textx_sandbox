@@ -1,0 +1,46 @@
+
+    digraph xtext {
+    fontname = "Bitstream Vera Sans"
+    fontsize = 8
+    node[
+        shape=record,
+        style=filled,
+        fillcolor=aliceblue
+    ]
+    nodesep = 0.3
+    edge[dir=black,arrowtail=empty]
+
+
+770063951576 -> 770063989840 [label="sections:0" arrowtail=diamond dir=both]
+770063989840 -> 770064038376 [label="fields:0" arrowtail=diamond dir=both]
+770064038376[label="{name:FIELD|+type:str='toluene'\l}"]
+770063989840 -> 770064070248 [label="fields:1" arrowtail=diamond dir=both]
+770064070248[label="{CAS_number:FIELD|+type:str='hello'\l}"]
+770063989840 -> 770064069128 [label="fields:2" arrowtail=diamond dir=both]
+770064069128[label="{Mw:FIELD|+type:str=''\l}"]
+770063989840 -> 770064070304 [label="fields:3" arrowtail=diamond dir=both]
+770064070304[label="{Signalword:FIELD|+type:str='Danger'\l}"]
+770063989840[label="{Substance:SECTION|}"]
+770063951576 -> 770063989896 [label="sections:1" arrowtail=diamond dir=both]
+770063989896 -> 770064071816 [label="fields:0" arrowtail=diamond dir=both]
+770064071816[label="{a:FIELD|+type:str=''\l}"]
+770063989896 -> 770064071872 [label="fields:1" arrowtail=diamond dir=both]
+770064071872[label="{b:FIELD|+type:str=''\l}"]
+770063989896[label="{H-Statements:SECTION|}"]
+770063951576 -> 770064038432 [label="sections:2" arrowtail=diamond dir=both]
+770064038432 -> 770064071984 [label="fields:0" arrowtail=diamond dir=both]
+770064071984[label="{a:FIELD|+type:str=''\l}"]
+770064038432 -> 770064071928 [label="fields:1" arrowtail=diamond dir=both]
+770064071928[label="{b:FIELD|+type:str=''\l}"]
+770064038432[label="{P-Statments:SECTION|}"]
+770063951576 -> 770064070192 [label="sections:3" arrowtail=diamond dir=both]
+770064070192 -> 770064072096 [label="fields:0" arrowtail=diamond dir=both]
+770064072096[label="{name:FIELD|+type:str=''\l}"]
+770064070192 -> 770064072264 [label="fields:1" arrowtail=diamond dir=both]
+770064072264[label="{number:FIELD|+type:str=''\l}"]
+770064070192 -> 770064072376 [label="fields:2" arrowtail=diamond dir=both]
+770064072376[label="{supervisor:FIELD|+type:str=''\l}"]
+770064070192[label="{Contact:SECTION|}"]
+770063951576[label="{:COSHH|}"]
+
+}

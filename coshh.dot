@@ -1,0 +1,43 @@
+
+    digraph xtext {
+    fontname = "Bitstream Vera Sans"
+    fontsize = 8
+    node[
+        shape=record,
+        style=filled,
+        fillcolor=aliceblue
+    ]
+    nodesep = 0.3
+    edge[dir=black,arrowtail=empty]
+
+
+770062589800[ label="{FIELD|+name:ID\l+type:ID\l}"]
+
+770062583192 -> 770062590744[arrowtail=diamond, dir=both, headlabel="sections 0..*"]
+770062583192[ label="{COSHH|}"]
+
+770062590744 -> 770062589800[arrowtail=diamond, dir=both, headlabel="fields 1..*"]
+770062590744[ label="{SECTION|+name:STRING\l}"]
+
+770062592632[ label="{BOOL|}"]
+
+770062582248[ label="{FLOAT|}"]
+
+770062580360[ label="{BASETYPE|}"]
+770062580360 -> 770062588856 [dir=back]
+770062580360 -> 770062592632 [dir=back]
+770062580360 -> 770062591688 [dir=back]
+770062580360 -> 770062581304 [dir=back]
+
+770062581304[ label="{STRING|}"]
+
+770062587912[ label="{INT|}"]
+
+770062588856[ label="{NUMBER|}"]
+770062588856 -> 770062582248 [dir=back]
+770062588856 -> 770062587912 [dir=back]
+
+770062591688[ label="{ID|}"]
+
+
+}

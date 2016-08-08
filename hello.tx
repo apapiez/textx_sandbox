@@ -1,0 +1,7 @@
+HelloWordlModel:
+	'hello' to_greet+=Who[',']
+	;
+
+Who:
+	name = /[^,]*/
+	;

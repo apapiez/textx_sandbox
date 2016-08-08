@@ -1,0 +1,8 @@
+DEFINE RESIN :
+	name: 'ag50wx8'
+	type: 'Polystyrene sulfonate'
+	radius: 0.004
+	water_capacity: 50
+END DEFINE
+	
+	

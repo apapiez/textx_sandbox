@@ -1,0 +1,27 @@
+LONGCOSHH
+	SECTION 'Substance':
+		name : toluene ;
+		CAS_number : hello ;
+		Mw : 75 ;
+		Signalword : Danger ;
+	END
+	
+	SECTION 'H-Statements':
+		a:214;
+		b:215;
+	END
+	
+	SECTION 'P-Statments':
+		a:554;
+		b:32;
+	END
+	
+	SECTION 'Contact':
+		name:'john smith' ;
+		number:01912254122 ;
+		supervisor:'bilbo baggins' ;
+	END
+	
+END
+	
+	
